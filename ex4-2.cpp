@@ -13,7 +13,8 @@ int main()
     scanf("%f",&r);
     
     if( r >= 0 ){
-    printf("圆面积 %f \n",r * pi);
+    printf("圆面积 %f cm^2 \n",r * r * pi);
+    printf("圆周长 %f cm \n",2 * r * pi);
    }
    else{
     printf("无效半径 \n");
