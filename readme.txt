@@ -21,6 +21,8 @@ git commit -m "update"
 
 git push
 
-cp ex1-1.cpp ex1-3.cpp
+cp ex1-1.cpp ex1-3.cpp 
 
 nano ex1-3.cpp
+
+./a.out 
