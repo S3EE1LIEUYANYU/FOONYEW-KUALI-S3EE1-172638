@@ -26,3 +26,5 @@ cp ex1-1.cpp ex1-3.cpp
 nano ex1-3.cpp
 
 ./a.out 
+
+time python ex6-3.py
