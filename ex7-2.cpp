@@ -13,8 +13,8 @@ int main()
     minus = minusNumbers(n1, n2);
     multiply = multiplyNumbers(n1,n2);
     divide = divideNumbers(n1,n2);
-    printf("sum = %d",sum);
-    printf("minus = %d",minus);
+    printf("sum = %d"/n,sum);
+    printf("minus = %d"\n,minus);
     printf("multiply = %d",multiply);
     printf("divide = %d",divide);
     return 0;
