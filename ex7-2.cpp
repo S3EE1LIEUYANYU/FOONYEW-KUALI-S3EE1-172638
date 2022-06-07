@@ -2,11 +2,14 @@
 int addNumbers(int a, int b); // function prototype
 int minusNumbers(int a, int b);
 int multiplyNumbers(int a, int b);
-int devideNumbers(int a, int b);
+int divideNumbers(int a, int b);
 
 int main()
 {
     int n1,n2,sum;
+    int n1,n2,minus;
+    int n1,n2,multiply;
+    int n1,n2,divide;
     printf("Enters two numbers: ");
     scanf("%d %d",&n1,&n2);
     sum = addNumbers(n1, n2);  // function call
@@ -41,7 +44,7 @@ int multiplyNumbers(int a, int b)         // function definition
     //return statement
 }
 
-int devideNumbers(int a, int b)         // function definition   
+int divideNumbers(int a, int b)         // function definition   
 {
     int result;
     result = a/b;
