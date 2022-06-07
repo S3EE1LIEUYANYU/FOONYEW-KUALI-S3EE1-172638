@@ -11,13 +11,13 @@ int main()
     printf("分钟\n");
     printf("约等于\n");
     hours = hoursCount(t1,t2);
-    printf("%f 分钟",hours);
+    printf("%01f 小时",hours);
     return 0;
 }
 
 int hoursCount(float t1, float t2)
 {
     float result;
-    result = t1+(t2/60);
+    result = t1+(t2/60)+(t2%60);
     return result; 
 }
