@@ -11,7 +11,7 @@ int main()
     printf("分钟\n");
     printf("约等于\n");
     hours = hoursCount(t1,t2);
-    printf("%f 小时\n",hours);
+    printf("%2.2f 小时\n",hours);
     return 0;
 }
 
