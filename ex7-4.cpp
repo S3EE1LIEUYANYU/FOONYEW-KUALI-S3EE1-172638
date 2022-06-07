@@ -2,7 +2,8 @@
 
 int main()
 {
-    int t1,t2;
+    float t1;
+    int t2;
     printf("开始\n");
     scanf("%d",&t1);
     printf(" 小时");
