@@ -12,7 +12,7 @@ int main()
     scanf("%d",&t2);
     printf("分钟\n");
     printf("约等于\n");
-    minutes = minutesCount(float t1, int t2);
+    minutes = minutesCount(t1,t2);
     printf("%f 分钟",minutes);
     return 0;
 }
