@@ -6,7 +6,7 @@ int main()
     int t2;
     printf("开始\n");
     scanf("%f",&t1);
-    printf("小时");
+    printf("小时\n");
     scanf("%d",&t2);
     printf("分钟\n");
     printf("约等于\n");
