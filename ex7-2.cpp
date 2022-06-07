@@ -6,10 +6,7 @@ int divideNumbers(int a, int b);
 
 int main()
 {
-    int n1,n2,sum;
-    int n1,n2,minus;
-    int n1,n2,multiply;
-    int n1,n2,divide;
+    int n1,n2,sum,minus,multiply,divide;
     printf("Enters two numbers: ");
     scanf("%d %d",&n1,&n2);
     sum = addNumbers(n1, n2);  // function call
