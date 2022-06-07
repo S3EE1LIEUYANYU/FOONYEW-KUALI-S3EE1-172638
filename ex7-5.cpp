@@ -1,5 +1,5 @@
 #include <stdio.h>
-int hoursCount(float t1, float t2);
+float hoursCount(float t1, float t2);
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
     return 0;
 }
 
-int hoursCount(float t1, float t2)
+float hoursCount(float t1, float t2)
 {
     float result;
     result = ((t1*60)+t2)/60;
