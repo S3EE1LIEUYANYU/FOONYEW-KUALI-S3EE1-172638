@@ -11,7 +11,7 @@ int main()
     scanf("%d %d",&n1,&n2);
     sum = addNumbers(n1, n2);  // function call
     minus = minusNumbers(n1, n2);
-    multiply = multiplyNumbers(na,n2);
+    multiply = multiplyNumbers(n1,n2);
     divide = divideNumbers(n1,n2);
     printf("sum = %d",sum);
     return 0;
