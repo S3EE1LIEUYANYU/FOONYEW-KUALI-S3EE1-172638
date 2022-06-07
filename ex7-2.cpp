@@ -1,8 +1,8 @@
 #include <stdio.h>
 int addNumbers(int a, int b); // function prototype
-int minusNumbers(int a, int b)
-int multiplyNumbers(int a, int b)
-int devideNumbers(int a, int b) 
+int minusNumbers(int a, int b);
+int multiplyNumbers(int a, int b);
+int devideNumbers(int a, int b);
 
 int main()
 {
