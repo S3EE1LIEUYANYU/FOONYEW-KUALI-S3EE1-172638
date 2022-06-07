@@ -18,6 +18,6 @@ int main()
 int hoursCount(float t1, float t2)
 {
     float result;
-    result = (t1*60+t2)/60;
+    result = ((t1*60)+t2)/60;
     return result; 
 }
