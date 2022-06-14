@@ -12,6 +12,9 @@ int main(){
         p=a+i;
         printf("a[%d] = %x \n",i,*p);
     }
+
+    // p=a;
+    // printf("a[0] = %x \n",p[0]);
     
     // printf("b = \n");
     // scanf("%d",&b);
