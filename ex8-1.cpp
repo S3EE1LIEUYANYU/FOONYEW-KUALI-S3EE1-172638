@@ -9,8 +9,9 @@ int main(){
     int *p;
     
     for (int i=0;i<sizeof(a)/sizeof(int);i++){
-        p=a+i;
-        printf("a[%d] = %x \n",i,*p);
+        p=a;
+        printf("a[%d] = %x \n",i,*(p+i));
+        printf("a[%d] = %x \n",i,p[i]);
     }
 
     // p=a;
