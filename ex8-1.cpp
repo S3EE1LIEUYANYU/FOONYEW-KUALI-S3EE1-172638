@@ -1,18 +1,18 @@
 // #include <stdio.h>
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int main(){
+// int main(){
     // int b = 10, c = 1;
-    int a[]={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,100};
+    // int a[]={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,100};
 
-    int *p;
+    // int *p;
     
-    for (int i=0;i<sizeof(a)/sizeof(int);i++){
-        p=a;
-        printf("a[%d] = %x \n",i,*(p+i));
-        printf("a[%d] = %x \n",i,p[i]);
-    }
+    // for (int i=0;i<sizeof(a)/sizeof(int);i++){
+    //     p=a;
+    //     printf("a[%d] = %x \n",i,*(p+i));
+    //     printf("a[%d] = %x \n",i,p[i]);
+    // }
 
     // p=a;
     // printf("a[0] = %x \n",p[0]);
