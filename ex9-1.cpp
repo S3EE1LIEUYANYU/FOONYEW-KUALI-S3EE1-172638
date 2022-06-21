@@ -20,7 +20,7 @@ int main()
    
    printf("array size n = %d \n",n);
    print_arr(p,n);
-   printf(*(a[0]));
+   printf(*(p+n));
    
    cout<<"Hello World";
    
