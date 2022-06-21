@@ -55,7 +55,7 @@ int main(){
         if(*data < *(data+i)){
             *data=*(data+i);
         }
-        printf("Largest number = %.2lf",*data);
+        printf("Largest number = %.2lf \n",*data);
         free(data);
         return 0;
     }
