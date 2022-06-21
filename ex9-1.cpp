@@ -6,8 +6,8 @@ void print_arr(int* p,int n){
     int i,n1=sizeof(p)/sizeof(int);
     printf("in function, array size n = %d \n",n1);
     for (i=0; i < n; i ++){
-        printf("%d, ",p[i]);
-        printf("= %d , ",*(p+i));
+        printf("%d ",p[i]);
+        printf("= %d  ,",*(p+i));
     }
     printf("\n");
 }
@@ -20,7 +20,7 @@ int main()
    
    printf("array size n = %d \n",n);
    print_arr(p,n);
-   printf(*(p+n));
+   printf("\n %d \n",*(p+n));
    
    cout<<"Hello World";
    
